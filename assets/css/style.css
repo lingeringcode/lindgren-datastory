@@ -84,8 +84,16 @@ section#social {
      grid-template-columns: 1fr 40%;
    }
 }
-/* Query for social grid track */
-@media screen and (max-width:670px) {
+/*
+  Query for social grid track.
+  Used element inspector to find
+  the 670px breaking point.
+
+  Query asks: If user is on a _screen_
+    and the screen is _less than 670px_,
+    then use the styles within.
+*/
+@media screen and (max-width: 670px) {
   section#social div.content-wrapper{
     grid-row: 2;
     grid-column: 1;
