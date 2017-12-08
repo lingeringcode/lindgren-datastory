@@ -1,0 +1,46 @@
+/* ===================
+   Import fonts
+   =================== */
+
+@font-face{font-family:'Lato-Regular';src:url('../font/lato/Lato-Regular.ttf') format('truetype');font-weight:normal;font-style:normal}
+@font-face{font-family:'Lato-Light';src:url('../font/lato/Lato-Light.ttf') format('truetype');font-weight:normal;font-style:normal}
+@font-face{font-family:'Norwester';src:url('../font/norwester/webfonts/norwester.ttf') format('truetype');font-weight:normal;font-style:normal}
+
+/* ===================
+   Typography scheme
+   =================== */
+html {
+  font-size: 20px;
+  font-family: "Lato-Light";
+}
+h1,h2,h3,h4 {
+  font-family: "Norwester";
+}
+
+/* ===================
+   Font-family classes
+   =================== */
+
+.benchnine {font-family: "BenchNine";}
+.lato-reg {font-family: "Lato-Regular";}
+.lato-light {font-family: "Lato-Light";}
+
+
+/* ===================
+   General styles
+   =================== */
+
+
+/* ===================
+   Content styles
+   =================== */
+
+
+/* ===================
+   Media styles
+   =================== */
+
+
+/* ===================
+   Layout styles
+   =================== */
