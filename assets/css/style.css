@@ -10,24 +10,18 @@
    Typography scheme
    =================== */
 html {
-  /*font-size: 20px;*/
+  font-size: 20px;
   font-family: "Lato-Light";
 }
 h1,h2,h3,h4 {
   font-family: "Norwester";
 }
 
-/* Font-family classes */
-.benchnine {font-family: "BenchNine";}
-.lato-reg {font-family: "Lato-Regular";}
-.lato-light {font-family: "Lato-Light";}
-
 
 /* ===================
    General styles
    =================== */
 
-/* Prototyping Styles */
 section#personal div,
 section#social div,
 section#resources div {
@@ -45,22 +39,19 @@ section#resources div {
 /* ===================
    Media styles
    =================== */
-section div.media-wrapper img {
+div.media-wrapper img {
   width: 100%;
   overflow: hidden;
-  margin: auto;
 }
 
 /* ===================
    Layout styles
    =================== */
-header {
-  height: 500px;
-  background: #8CBEB2;
-}
 
+/* Baseline grid Styles */
 section#personal,
-section#social {
+section#social,
+footer {
  display: grid;
  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
@@ -93,9 +84,20 @@ section#social {
   }
 }
 
+header {
+  height: 450px;
+  background: #8CBEB2;
+}
+
+/* Layout modifier classes*/
 section#personal div.content-wrapper {
   margin-left: 15px;
 }
 section#social div.content-wrapper {
   margin-right: 15px;
+}
+
+footer {
+  min-height: 350px;
+  background: #8CBEB2;
 }
