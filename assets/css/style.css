@@ -12,6 +12,7 @@
 html {
   font-size: 20px;
   font-family: "Lato-Light";
+  background: radial-gradient(circle at top left, #fdbb2d, #22c1c3);
 }
 h1,h2,h3,h4 {
   font-family: "Norwester";
@@ -39,9 +40,15 @@ section#resources div {
 /* ===================
    Media styles
    =================== */
+div.media-wrapper {
+  align-self: center; /*center the media*/
+}
 div.media-wrapper img {
   width: 100%;
   overflow: hidden;
+}
+header img {
+  width: 100%;
 }
 
 /* ===================
@@ -51,7 +58,7 @@ div.media-wrapper img {
 /* Baseline grid Styles */
 section#personal,
 section#social,
-footer {
+header, footer {
  display: grid;
  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
@@ -84,11 +91,6 @@ footer {
   }
 }
 
-header {
-  height: 450px;
-  background: #8CBEB2;
-}
-
 /* Layout modifier classes*/
 section#personal div.content-wrapper {
   margin-left: 15px;
@@ -97,7 +99,12 @@ section#social div.content-wrapper {
   margin-right: 15px;
 }
 
+/* HEADER */
+header {
+  height: 450px;
+}
+
+/* FOOTER */
 footer {
   min-height: 350px;
-  background: #8CBEB2;
 }
