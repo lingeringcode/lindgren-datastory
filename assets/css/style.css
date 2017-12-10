@@ -45,6 +45,16 @@ header img {
    background: url("/assets/img/dataviz-header-bg-600.png") bottom center no-repeat;
  }
 }
+div.video-container {
+  position: relative;
+  width: 100%;
+}
+div.video-container iframe {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 /* ===================
    Layout styles
@@ -86,7 +96,7 @@ header, footer {
   }
 }
 
-/* Layout modifiers */
+/* Sections */
 section#personal div,
 section#social div,
 section#resources div {
