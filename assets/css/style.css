@@ -19,11 +19,6 @@ h1,h2,h3,h4 {
 }
 
 /* ===================
-   General content styles
-   =================== */
-
-
-/* ===================
    General media styles
    =================== */
 div.media-wrapper {
@@ -45,6 +40,7 @@ header img {
    background: url("/assets/img/dataviz-header-bg-600.png") bottom center no-repeat;
  }
 }
+/* iframe height fix */
 div.video-container {
   position: relative;
   width: 100%;
@@ -57,10 +53,8 @@ div.video-container iframe {
 }
 
 /* ===================
-   Layout styles
+   Grid styles
    =================== */
-
-/* Baseline grid Styles */
 section#personal,
 section#social,
 header, footer {
@@ -96,7 +90,9 @@ header, footer {
   }
 }
 
-/* Sections */
+/* ===================
+   Section styles
+   =================== */
 section#personal div,
 section#social div,
 section#resources div {
@@ -111,7 +107,9 @@ section#social div.content-wrapper {
   margin-right: 15px;
 }
 
-/* HEADER */
+/* ===================
+   Header styles
+   =================== */
 header {
   height: 450px;
 }
@@ -121,7 +119,9 @@ header {
   }
 }
 
-/* FOOTER */
+/* ===================
+   Footer styles
+   =================== */
 footer {
   min-height: 350px;
 }
