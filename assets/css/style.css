@@ -12,6 +12,9 @@
 html {
   background: radial-gradient(circle at top left, #fdbb2d, #22c1c3);
 }
+p {
+  margin: 15px;
+}
 
 /* ===================
    Typography scheme
@@ -19,7 +22,6 @@ html {
 body {
   font-size: 20px;
   font-family: "Lato-Light";
-  background: radial-gradient(circle at top left, #fdbb2d, #22c1c3);
 }
 h1,h2,h3,h4 {
   font-family: "Norwester";
