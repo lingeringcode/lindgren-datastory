@@ -18,27 +18,13 @@ h1,h2,h3,h4 {
   font-family: "Norwester";
 }
 
-
 /* ===================
-   General styles
-   =================== */
-
-section#personal div,
-section#social div,
-section#resources div {
-  min-height: 350px;
-  padding-bottom: 50px;
-  padding-top: 50px;
-}
-
-
-/* ===================
-   Content styles
+   General content styles
    =================== */
 
 
 /* ===================
-   Media styles
+   General media styles
    =================== */
 div.media-wrapper {
   align-self: center; /*center the media*/
@@ -49,6 +35,15 @@ div.media-wrapper img {
 }
 header img {
   width: 100%;
+}
+/* Media query for header media */
+@media screen and (max-width: 670px) {
+ header div:nth-child(even) {
+   display: none;
+ }
+ header div:first-child {
+   background: url("/assets/img/dataviz-header-bg-600.png") bottom center no-repeat;
+ }
 }
 
 /* ===================
@@ -64,12 +59,12 @@ header, footer {
 }
 /* Media query for #personal & #social */
 @media screen and (min-width:1080px) {
- section#personal {
-   grid-template-columns: 40% 1fr;
-   }
-   section#social {
-     grid-template-columns: 1fr 40%;
-   }
+  section#personal {
+    grid-template-columns: 40% 1fr;
+  }
+  section#social {
+    grid-template-columns: 1fr 40%;
+  }
 }
 /*
   Query for social grid track.
@@ -91,7 +86,14 @@ header, footer {
   }
 }
 
-/* Layout modifier classes*/
+/* Layout modifiers */
+section#personal div,
+section#social div,
+section#resources div {
+  min-height: 350px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
 section#personal div.content-wrapper {
   margin-left: 15px;
 }
@@ -102,6 +104,11 @@ section#social div.content-wrapper {
 /* HEADER */
 header {
   height: 450px;
+}
+@media screen and (max-width:670px) {
+  header h1 {
+    margin: 30px;
+  }
 }
 
 /* FOOTER */
