@@ -7,9 +7,16 @@
 @font-face{font-family:'Norwester';src:url('../font/norwester/webfonts/norwester.ttf') format('truetype');font-weight:normal;font-style:normal}
 
 /* ===================
-   Typography scheme
+   General styles
    =================== */
 html {
+  background: radial-gradient(circle at top left, #fdbb2d, #22c1c3);
+}
+
+/* ===================
+   Typography scheme
+   =================== */
+body {
   font-size: 20px;
   font-family: "Lato-Light";
   background: radial-gradient(circle at top left, #fdbb2d, #22c1c3);
