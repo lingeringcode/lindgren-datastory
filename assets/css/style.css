@@ -120,12 +120,11 @@ header {
     display: none;
   }
   header div:first-child {
-    /* Note the first forward slash
-        in the url() statement;
+    /* Note the 2 dots in the url();
         this tells the computer to
-        start looking in the root
-        directory. */
-    background: url("/assets/img/dataviz-header-bg-600.png") bottom center no-repeat;
+        go back 1 folder first, then
+        proceed to the resource. */
+    background: url("../img/dataviz-header-bg-600.png") bottom center no-repeat;
   }
   header h1 {
     margin: 30px;
