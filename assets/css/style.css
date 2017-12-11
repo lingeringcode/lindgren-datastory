@@ -119,6 +119,11 @@ header {
     display: none;
   }
   header div:first-child {
+    /* Note the first forward slash
+        in the url() statement;
+        this tells the computer to 
+        start looking in the root
+        directory. */
     background: url("/assets/img/dataviz-header-bg-600.png") bottom center no-repeat;
   }
   header h1 {
