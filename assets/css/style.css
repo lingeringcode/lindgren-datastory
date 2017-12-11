@@ -10,6 +10,7 @@
    General styles
    =================== */
 html {
+  /* Example gradient background */
   background: radial-gradient(circle at top left, #dcb7b0, #22c1c3);
 }
 p {
@@ -121,7 +122,7 @@ header {
   header div:first-child {
     /* Note the first forward slash
         in the url() statement;
-        this tells the computer to 
+        this tells the computer to
         start looking in the root
         directory. */
     background: url("/assets/img/dataviz-header-bg-600.png") bottom center no-repeat;
