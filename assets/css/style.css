@@ -34,6 +34,11 @@ h1,h2,h3,h4 {
 img {
   width: 100%;
 }
+section#personal div.content-wrapper img {
+  width: 100px;
+  float: left;
+  margin-right: 30px;
+}
 
 /* Fix iframe height issue */
 div.video-container {
@@ -125,7 +130,7 @@ header {
         this tells the computer to
         go back 1 folder first, then
         proceed to the resource. */
-    background: url("../img/dataviz-header-bg-600.png") bottom center no-repeat;
+    background: url("../img/dataviz-600.png") bottom center no-repeat;
   }
   header h1 {
     margin: 30px;
