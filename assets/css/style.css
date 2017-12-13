@@ -42,6 +42,13 @@ section#personal div.content-wrapper img {
 
 /* Fix iframe height issue */
 div.video-container {
+  /* This sets up the iframe code.
+      Note the absolute position
+      used for the iframe, and
+      the 0 values for top and left.
+      That tells the iframe to be
+      at the very top and very left
+      of this container div. */
   position: relative;
   width: 100%;
 }
@@ -110,9 +117,6 @@ section#social div.content-wrapper {
 }
 div.media-wrapper {
   align-self: center; /*center media in div*/
-}
-div.media-wrapper img {
-  overflow: hidden;
 }
 
 /* ===================
