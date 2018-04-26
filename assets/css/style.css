@@ -72,7 +72,7 @@ header, footer {
 }
 /*
   Query for social grid track.
-  Used element inspector to find
+  Used element inspector to find desired
   the 670px breaking point.
 
   Query asks: If user is on a _screen_
